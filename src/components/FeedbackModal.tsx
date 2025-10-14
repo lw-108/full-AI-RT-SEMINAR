@@ -72,7 +72,7 @@ const FeedbackModal: React.FC<FeedbackModalProps> = ({ isOpen, onClose }) => {
         <form onSubmit={handleSubmit} className="p-6 space-y-4">
           {/* Username */}
           <div>
-            <label className="block text-sm font-medium text-pulse-600 dark:puls-600 mb-2">
+            <label className="block text-sm font-medium text-white mb-2">
               Username
             </label>
             <input
@@ -106,7 +106,7 @@ const FeedbackModal: React.FC<FeedbackModalProps> = ({ isOpen, onClose }) => {
 
           {/* Email */}
           <div>
-            <label className="block text-sm font-medium text-white  mb-2">
+            <label className="block text-sm font-medium text-white mb-2">
               Email ID
             </label>
             <input
