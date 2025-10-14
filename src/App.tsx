@@ -5,7 +5,6 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
-import AItools from "./pages/AItools";
 import ReactComponents from "./pages/ReactComponents";
 import AISettings from "./pages/AISettings";
 import ReactComps from "./pages/ReactComps";
@@ -23,7 +22,6 @@ const App = () => (
         <FloatingDockDemo />
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/ai-tools" element={<AItools />} />
           <Route path="/react-components" element={<ReactComponents />} />
           <Route path="/ai-settings" element={<AISettings />} />
           <Route path="/react-comps" element={<ReactComps />} />
