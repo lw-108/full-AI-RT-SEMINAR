@@ -51,7 +51,7 @@ const items = [
     image: "/ace.png",
     title: "Ace Design",
     subtitle: "Customizable UI",
-    handle: "@acedesign",
+    handle: "@aceternity",
     borderColor: "#F59E0B",
     gradient: "linear-gradient(145deg, #F59E0B, #000)",
     url: "https://ui.aceternity.com/"
@@ -67,18 +67,18 @@ const items = [
   },
   {
     image: "/hero.jpg",
-    title: "Framer Motion",
-    subtitle: "Animations Library",
-    handle: "@framermotion",
+    title: "Hero UI",
+    subtitle: "Mordern Upgraded UI library",
+    handle: "@hero",
     borderColor: "#06B6D4",
     gradient: "linear-gradient(145deg, #06B6D4, #000)",
     url: "https://www.heroui.com/"
   },
   {
     image: "/mvp.png",
-    title: "Framer Motion",
-    subtitle: "Animations Library",
-    handle: "@framermotion",
+    title: "MVP Blocks",
+    subtitle: "Red Focused UI Library",
+    handle: "@mvpblocks",
     borderColor: "#06B6D4",
     gradient: "linear-gradient(145deg, #06B6D4, #000)",
     url: "https://blocks.mvp-subha.me/"

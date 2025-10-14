@@ -89,7 +89,7 @@ const FeedbackModal: React.FC<FeedbackModalProps> = ({ isOpen, onClose }) => {
 
           {/* Register Number */}
           <div>
-            <label className="block text-sm font-medium text-white dark:text-pulse-600 mb-2">
+            <label className="block text-sm font-medium text-white mb-2">
               Register Number
             </label>
             <input
@@ -106,7 +106,7 @@ const FeedbackModal: React.FC<FeedbackModalProps> = ({ isOpen, onClose }) => {
 
           {/* Email */}
           <div>
-            <label className="block text-sm font-medium text-white dark:text-pulse-600 mb-2">
+            <label className="block text-sm font-medium text-white  mb-2">
               Email ID
             </label>
             <input
@@ -123,7 +123,7 @@ const FeedbackModal: React.FC<FeedbackModalProps> = ({ isOpen, onClose }) => {
 
           {/* Feedback */}
           <div>
-            <label className="block text-sm font-medium text-white dark:text-pulse-600 mb-2">
+            <label className="block text-sm font-medium text-white mb-2">
               Feedback Comments
             </label>
             <textarea
