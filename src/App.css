@@ -142,6 +142,16 @@
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
 }
 
+::selection {
+  background-color: #ff6b6b; /* Selection background color */
+  color: white; /* Text color when selected */
+}
+
+::-moz-selection {
+  background-color: #ff6b6b; /* For Firefox */
+  color: white;
+}
+
 /* Enhanced mobile optimizations */
 @media (max-width: 640px) {
   .robot-image-container {

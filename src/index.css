@@ -199,6 +199,16 @@
   animation: fadeIn 0.8s ease forwards;
 }
 
+::selection {
+  background-color: #f97316; /* Selection background color */
+  color: white; /* Text color when selected */
+}
+
+::-moz-selection {
+  background-color: #ff6b6b; /* For Firefox */
+  color: white;
+}
+
 @keyframes fadeIn {
   to {
     opacity: 1;
