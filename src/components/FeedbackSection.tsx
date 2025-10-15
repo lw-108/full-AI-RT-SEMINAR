@@ -45,7 +45,7 @@ const FeedbackSection = () => {
                 <div className="text-center mb-12">
                     <h2 className="text-4xl font-bold text-foreground mb-4">Seminar Feedback</h2>
                     <p className="text-lg text-muted-foreground">
-                        Share your thoughts and help us improve future seminars
+                        Share your thoughts about the Seminar...
                     </p>
                 </div>
 
